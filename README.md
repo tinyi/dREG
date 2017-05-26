@@ -62,7 +62,7 @@ dREG takes three files as input, and outputs one file.  Input files include the 
 
 To use dREG, type: 
 
-    bash dREG.bsh plus_strand.bw minus_strand.bw out_prefix asvm.RData [nthreads] [GPU]
+    bash run_dREG.bsh plus_strand.bw minus_strand.bw out_prefix asvm.RData [nthreads] [GPU]
 
     plus_strand.bw	-- PRO-seq data (plus strand).  Read counts (not normalized) formatted as a bigWig file.
     minus_strand.bw	-- PRO-seq data (minus strand). Read counts (not normalized) formatted as a bigWig file.
